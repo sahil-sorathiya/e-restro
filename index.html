@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Restro Site</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <h1 class="e-res">E-RESTRO</h1>
+        <div class="left-nav">
+          <button class="btn-nav sort">SORT BY</button>
+          <ul class="drop dropdown" id="dropdown1">
+            <li class="sort-list">Price Low to High</li>
+            <li class="sort-list">Price High to low</li>
+            <li class="sort-list">Recommended</li>
+            <li class="sort-list">Ratings</li>
+          </ul>
+          <button class="btn-nav filter">FILTER</button>
+          <ul class="drop dropdown" id="dropdown2">
+            <li class="filter-list">None</li>
+            <li class="filter-list">Veg</li>
+            <li class="filter-list">Non-Veg</li>
+            <li class="filter-list">4.0+ Ratings</li>
+            <li class="filter-list">below &#x20B9;100</li>
+            <li class="filter-list">&#x20B9;100 - &#x20B9;200</li>
+            <li class="filter-list">&#x20B9;200 - &#x20B9;300</li>
+            <li class="filter-list">Over &#x20B9;300</li>
+          </ul>
+        </div>
+      </div>
+      <div id="card-container">
+        <!-- cards will show here -->
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
