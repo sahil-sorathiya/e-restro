@@ -14,7 +14,7 @@ for (let i = 0; i <= 1; i++) {
 
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', 'https://e-restro.herokuapp.com/home', false);
+xhr.open('GET', 'https://e-restro-server.vercel.app/home', false);
 
 xhr.onload = function () {
     const data = JSON.parse(this.response);
